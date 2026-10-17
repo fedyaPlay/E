@@ -1,0 +1,36 @@
+{
+  "$schema": "https://githubusercontent.com",
+  "name": "E Language",
+  "scopeName": "source.e",
+  "patterns": [
+    {
+      "match": "#.*$",
+      "name": "comment.line.number-sign.e"
+    },
+    {
+      "match": "\\b(var|if|set|run|log|every)\\b",
+      "name": "keyword.control.e"
+    },
+    {
+      "match": "\\b(admin_critical|admin_override)\\b",
+      "name": "keyword.other.important.e"
+    },
+    {
+      "match": "\\b(HIGH|LOW|INPUT|OUTPUT)\\b",
+      "name": "constant.language.e"
+    },
+    {
+      "match": "\\bpin\\(\\w+\\)",
+      "name": "support.function.hardware.e"
+    },
+    {
+      "match": "\\b\\d+(ms|s)\\b",
+      "name": "constant.numeric.e"
+    },
+    {
+      "begin": "\"",
+      "end": "\"",
+      "name": "string.quoted.double.e"
+    }
+  ]
+}
