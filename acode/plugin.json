@@ -1,0 +1,14 @@
+{
+  "id": "com.engineer.lang.e",
+  "name": "E Language Support",
+  "version": "1.0.0",
+  "main": "main.js",
+  "icon": "icon.png",
+  "readme": "readme.md",
+  "description": "Официальная подсветка синтаксиса для инженерного скриптового языка E.",
+  "author": {
+    "name": "Schewckartin",
+    "email": "dev@e-lang.org"
+  },
+  "minVersionCode": 290
+}
