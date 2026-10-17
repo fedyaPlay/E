@@ -1,0 +1,29 @@
+{
+  "name": "e-lang-support",
+  "displayName": "E Language Support",
+  "description": "Official syntax highlighting for the E scripting language.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "e",
+        "aliases": ["E Language", "e"],
+        "extensions": [".e"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "e",
+        "scopeName": "source.e",
+        "path": "./syntaxes/e.tmLanguage.json"
+      }
+    ]
+  }
+}
